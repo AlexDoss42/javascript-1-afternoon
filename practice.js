@@ -58,7 +58,7 @@ function greeting(name){
 
 //Code Here
 
-let newGreeting = (name) => {
+let newGreeting = function(name){
   return "Hello, " + name
 }
 
@@ -68,6 +68,9 @@ let newGreeting = (name) => {
 //Name it finalGreeting.
 
 //Code Here
+let newGreeting = (name) => {
+  return "Hello, " + name
+}
 
 //////////////////PROBLEM 9////////////////////
 
@@ -75,6 +78,8 @@ let newGreeting = (name) => {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 10////////////////////
 
@@ -85,10 +90,19 @@ let newGreeting = (name) => {
 
 //Code Here
 
+let dog = {
+  name: "Goose",
+  Color: "Red",
+  age: 3,
+  goodBoy: True
+}
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+dog.name = "devMountainClassPet"
 
 //////////////////PROBLEM 11////////////////////
 
