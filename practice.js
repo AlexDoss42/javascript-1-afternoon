@@ -79,7 +79,7 @@ let finalGreeting = (name) => {
 
 //Code Here
 
-let groceries = ["apples", "milk", "eggs", "bread"]
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 10////////////////////
 
@@ -92,17 +92,17 @@ let groceries = ["apples", "milk", "eggs", "bread"]
 
 let dog = {
   name: "Goose",
-  Color: "Red",
+  color: "Red",
   age: 3,
   goodBoy: true
-}
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
 
-dog.name = "devMountainClassPet"
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 11////////////////////
 
@@ -114,9 +114,9 @@ dog.name = "devMountainClassPet"
 // with NAMEPARAM being the name parameter being passed in
 
 function nameCheck(NAMEPARAM){
-  if(name === 'Steven'){
+  if(NAMEPARAM === 'Steven'){
     return 'What is up Steven?'
-  } else if (name === 'Bryan'){
+  } else if (NAMEPARAM === 'Bryan'){
       return 'Hey Bryan!'
   } else {
       return 'Cool name, ' + NAMEPARAM
