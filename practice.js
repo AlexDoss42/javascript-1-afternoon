@@ -68,7 +68,7 @@ let newGreeting = function(name){
 //Name it finalGreeting.
 
 //Code Here
-let newGreeting = (name) => {
+let finalGreeting = (name) => {
   return "Hello, " + name
 }
 
@@ -94,7 +94,7 @@ let dog = {
   name: "Goose",
   Color: "Red",
   age: 3,
-  goodBoy: True
+  goodBoy: true
 }
 
 //...access the dog's name from the object and assign it to a
@@ -113,6 +113,16 @@ dog.name = "devMountainClassPet"
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
+function nameCheck(NAMEPARAM){
+  if(name === 'Steven'){
+    return 'What is up Steven?'
+  } else if (name === 'Bryan'){
+      return 'Hey Bryan!'
+  } else {
+      return 'Cool name, ' + NAMEPARAM
+  }
+}
+
 // Code here
 
 //////////////////PROBLEM 12////////////////////
@@ -122,6 +132,10 @@ dog.name = "devMountainClassPet"
 // The add function should return the two parameters added together
 
 //Code Here
+
+function add(num1, num2){
+
+}
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
