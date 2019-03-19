@@ -158,6 +158,12 @@ let mathSum = add(3, 4)
 function faveColorFinder(color){
   if (color === 'red'){
     return `${color} is a great color`
+  } else if (color === 'green'){
+      return `${color} is a solid favorite color`
+  } else if (color === 'black'){
+      return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
   }
 }
 
